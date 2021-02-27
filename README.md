@@ -10,7 +10,7 @@
     }
 
 
-**Main Data Types:**
+**[Main Data Types:](https://github.com/EN10/LearnC/blob/main/DataTypes.c)**
 
     int x = 3;
     float y = 3.14;
@@ -20,7 +20,7 @@
     printf("%f",y);
     printf("%s",z);
 
-**String Functions:**
+**[String Functions:](https://github.com/EN10/LearnC/blob/main/StringFunctions.c)**
 
     char name[] = "John Smith";
     strlen(name);
@@ -30,7 +30,7 @@
     char src[] = " World";
     strncat(dest,src,-1);
 
-**Reading Strings:**
+**[Reading Strings:](https://github.com/EN10/LearnC/blob/main/ReadingStrings.c)**
 
     char name[20];
     printf("Enter name: ");
