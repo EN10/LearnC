@@ -36,7 +36,15 @@
     printf("Enter name: ");
     scanf("%s", name);
     printf("Your name is %s.", name);
+
+**[Character Comparison:](https://github.com/EN10/LearnC/blob/main/CharacterComparison.c)**
+
+    char str[] = "abc";
     
+    if (str[0] == 97 && str[0] == 'a'){
+    printf("both equal \n");
+    }
+
 ### REF:
 
 * [Learn C](https://www.learn-c.org/en/Welcome)
