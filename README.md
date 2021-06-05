@@ -45,6 +45,15 @@
     printf("both equal \n");
     }
 
+**[args:](https://github.com/EN10/LearnC/blob/main/args.c)**
+    #include <stdio.h>
+
+    int main(int argc, char *argv[])
+    {
+        printf("number of args %i \n", argc);
+        printf("first arg %s \n", argv[1]);
+    }
+
 ### REF:
 
 * [Learn C](https://www.learn-c.org/en/Welcome)
